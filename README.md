@@ -31,7 +31,8 @@ On macOS and Linux:
 python3 -m venv venv
 ```
 
-To activate it on windows:
+To activate it 
+On Windows:
 ```
 .\venv\Scripts\activate
 ```
@@ -46,9 +47,10 @@ https://packaging.python.org/guides/installing-using-pip-and-virtual-environment
 ## Running the project
 
 ### Backend
-From the `/backend` folder run on Windows:
+From the `/backend` folder run 
+On Windows:
 ```
-py -m pip install -r requirements.txt`. 
+py -m pip install -r requirements.txt 
 ```
 On macOS and Linux:
 ```
@@ -58,20 +60,19 @@ All required packages are included in the requirements file.
 
 To run the backend on your local machine, run the following commands from the `/backend` folder: 
 
-For Linux and Mac:
-```
-export FLASK_APP=application.py
-export FLASK_ENV=development
-flask run
-```
-
-For Windows:
+On Windows:
 ```
 set FLASK_APP=application.py
 set FLASK_ENV=development
 flask run
 ```
 
+On Linux and Mac:
+```
+export FLASK_APP=application.py
+export FLASK_ENV=development
+flask run
+```
 [API Reference](backend/README.md)
 
 ### Frontend
