@@ -1,0 +1,17 @@
+{
+    "temperature": 75,
+    "lights": {
+        "1": {
+            "id": "1",
+            "turnedOn": true
+        },
+        "2": {
+            "id": "2",
+            "turnedOn": false
+        },
+        "3": {
+            "id": "3",
+            "turnedOn": true
+        }
+    }
+}
