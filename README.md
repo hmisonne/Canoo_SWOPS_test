@@ -46,7 +46,15 @@ https://packaging.python.org/guides/installing-using-pip-and-virtual-environment
 ## Running the project
 
 ### Backend
-From the `/backend` folder run `pip install requirements.txt`. All required packages are included in the requirements file. 
+From the `/backend` folder run on Windows:
+```
+py -m pip install -r requirements.txt`. 
+```
+On macOS and Linux:
+```
+python -m pip install -r requirements.txt
+```
+All required packages are included in the requirements file. 
 
 To run the backend on your local machine, run the following commands from the `/backend` folder: 
 
